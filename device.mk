@@ -33,7 +33,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/aosparadox/bootanimation/720p_PNG_bootanimation.zip:system/media/bootanimation.zip
+    vendor/aosparadox/bootanimation/aosp_bootanimation.zip:system/media/bootanimation.zip
 
 # CodeAurora msm8916_64 Tree
 include device/qcom/msm8916_64/msm8916_64.mk
