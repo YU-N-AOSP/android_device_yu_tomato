@@ -19,7 +19,7 @@
 # Platform
 TARGET_NO_BOOTLOADER := true
 TARGET_CPU_CORTEX_A53 := true
-
+USE_CLANG_PLATFORM_BUILD := true
 ENABLE_CPUSETS := true
 
 # ANT+
