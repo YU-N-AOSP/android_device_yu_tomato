@@ -26,6 +26,7 @@ ENABLE_CPUSETS := true
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Audio
+AUDIO_FEATURE_NON_WEARABLE_TARGET := true
 AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE := true
 AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
 AUDIO_FEATURE_ENABLED_AUDIOSPHERE := true
@@ -55,15 +56,11 @@ TARGET_USES_AOSP := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
 
-
 # DoubleTapWake
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touchscreen/touchscreen_dev/gesture_ctrl"
 
 # FM
 AUDIO_FEATURE_ENABLED_FM := true
-
-# Init
-TARGET_LIBINIT_DEFINES_FILE := device/yu/tomato/init/init_tomato.cpp
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true

@@ -21,11 +21,11 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/yu/tomato/ramdisk,root)
+    $(call find-copy-subdir-files,*,device/yu/tomato/ramdisk/*,root)
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/yu/tomato/prebuilt/system,system)
+    $(call find-copy-subdir-files,*,device/yu/tomato/prebuilt/system/*,system)
 
 # CAF Branch
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
