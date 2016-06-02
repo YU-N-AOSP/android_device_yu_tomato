@@ -20,12 +20,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
 
 # Ramdisk
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/yu/tomato/ramdisk/*,root)
+#PRODUCT_COPY_FILES += \
+#    $(call find-copy-subdir-files,*,device/yu/tomato/ramdisk/*,root)
 
 # Prebuilt
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/yu/tomato/prebuilt/system/*,system)
+#PRODUCT_COPY_FILES += \
+#    $(call find-copy-subdir-files,*,device/yu/tomato/prebuilt/system/*,system)
 
 # CAF Branch
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
